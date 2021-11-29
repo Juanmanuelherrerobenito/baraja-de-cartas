@@ -1,0 +1,53 @@
+body{
+	background-color: aqua;
+}
+
+div.d1,div.d2,div.d3,div.d4,div.d5{
+width: 100px;
+height: 100px;
+border: 6px solid #000000;
+size: 30px;
+position: relative;
+}
+
+div.d1{
+color: red;
+z-index: -5; 
+  transform: rotate(-40deg);
+  background-color: black;
+
+}
+div.d2{
+	 color: black;
+	 z-index: -4;
+	  transform: rotate(-30deg); 
+	    background-color: red;
+	    left: 20px;
+	    bottom: 120px;
+}
+
+div.d3{
+	color: red;
+	z-index: -3; 
+	 transform: rotate(-20deg);
+	   background-color: black;
+	   left: 40px;
+	    bottom: 230px;
+}
+
+div.d4{
+	 color: black;
+	 z-index: -2; 
+	  transform: rotate(-10deg);
+	    background-color: red;
+	      left: 60px;
+	       bottom: 340px;
+}
+
+div.d5{
+	color: red;
+	z-index: -1; 
+	   background-color: black;
+	     left: 80px;
+	      bottom: 450px;
+}
